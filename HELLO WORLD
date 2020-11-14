@@ -1,0 +1,5 @@
+def creat_weight():
+'''
+生成权重和偏置
+'''
+  return tf.Variable(initial_value.random_normal(shape=shape,stddev=0.01))
